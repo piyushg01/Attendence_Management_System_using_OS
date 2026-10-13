@@ -1,0 +1,170 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+
+3 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /MediaBox [0 0 612 850]
+   /Resources <<
+     /Font <<
+       /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+       /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+     >>
+   >>
+   /Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<< /Length 6809 >>
+stream
+0.31 0.27 0.89 rg 40 785 532 45 re f 0 0 0 rg
+1 1 1 rg
+BT /F2 16 Tf 110 808 Td (METROPOLITAN INSTITUTE OF TECHNOLOGY) Tj ET
+BT /F1 11 Tf 130 794 Td (DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING) Tj ET
+0 0 0 rg
+BT /F2 13 Tf 85 760 Td (ACADEMIC MASTER TIMETABLE -- SPRING SEMESTER VI \(2026\)) Tj ET
+BT /F1 9 Tf 115 746 Td (Approved by: Academic Council & College Administration | Effective: Jan 2026) Tj ET
+1.5 w 40 738 m 572 738 l S
+0.96 0.97 0.99 rg 40 680 532 50 re f 0 0 0 rg
+BT /F2 10 Tf 48 718 Td (FACULTY COURSE ASSIGNMENT SUMMARY:) Tj ET
+BT /F1 8.5 Tf 48 703 Td (CS401: Operating Systems -- Prof. Arvind Sharma \(TY-A, TY-B\) | CS402: DBMS -- Dr. Priya Kulkarni \(TY-B, TY-C\)) Tj ET
+BT /F1 8.5 Tf 48 690 Td (CS403: Data Structures -- Prof. Rajesh Menon \(TY-A, TY-C\) | CS404: Networks -- Dr. Sunita Deshmukh \(TY-B\)) Tj ET
+0.92 0.94 0.98 rg 40 645 532 22 re f 0 0 0 rg
+BT /F2 10 Tf 50 652 Td (DIVISION TY-A  |  Room: Hall 202 & Lab 2  |  Class Strength: 35 Students) Tj ET
+0.88 0.9 0.96 rg 40 622 532 18 re f 0 0 0 rg
+BT /F2 8.5 Tf 48 627 Td (DAY) Tj ET
+BT /F2 8.5 Tf 110 627 Td (09:30 - 10:30 AM) Tj ET
+BT /F2 8.5 Tf 230 627 Td (11:00 - 12:00 PM) Tj ET
+BT /F2 8.5 Tf 350 627 Td (01:30 - 02:30 PM) Tj ET
+BT /F2 8.5 Tf 470 627 Td (03:00 - 04:00 PM) Tj ET
+BT /F2 8 Tf 48 608 Td (Monday) Tj ET
+BT /F1 7.5 Tf 110 608 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 230 608 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 350 608 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 470 608 Td (CS405: AI \(Prof. Roy\)) Tj ET
+0.5 w 40 602 m 572 602 l S
+BT /F2 8 Tf 48 590 Td (Tuesday) Tj ET
+BT /F1 7.5 Tf 110 590 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 230 590 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 350 590 Td (CS404: CN Lab \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 470 590 Td (CS401: OS Tutorial) Tj ET
+0.5 w 40 584 m 572 584 l S
+BT /F2 8 Tf 48 572 Td (Wednesday) Tj ET
+BT /F1 7.5 Tf 110 572 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 230 572 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 350 572 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 470 572 Td (Library / Seminar) Tj ET
+0.5 w 40 566 m 572 566 l S
+BT /F2 8 Tf 48 554 Td (Thursday) Tj ET
+BT /F1 7.5 Tf 110 554 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 230 554 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 350 554 Td (CS405: AI \(Prof. Roy\)) Tj ET
+BT /F1 7.5 Tf 470 554 Td (CS402: DBMS Lab) Tj ET
+0.5 w 40 548 m 572 548 l S
+BT /F2 8 Tf 48 536 Td (Friday) Tj ET
+BT /F1 7.5 Tf 110 536 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 230 536 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 350 536 Td (CS401: OS Lab \(Sharma\)) Tj ET
+BT /F1 7.5 Tf 470 536 Td (Sports / Mentoring) Tj ET
+1 w 40 530 m 572 530 l S
+0.92 0.94 0.98 rg 40 495 532 22 re f 0 0 0 rg
+BT /F2 10 Tf 50 502 Td (DIVISION TY-B  |  Room: Hall 201 & Lab 1  |  Class Strength: 35 Students) Tj ET
+0.88 0.9 0.96 rg 40 472 532 18 re f 0 0 0 rg
+BT /F2 8.5 Tf 48 477 Td (DAY) Tj ET
+BT /F2 8.5 Tf 110 477 Td (09:30 - 10:30 AM) Tj ET
+BT /F2 8.5 Tf 230 477 Td (11:00 - 12:00 PM) Tj ET
+BT /F2 8.5 Tf 350 477 Td (01:30 - 02:30 PM) Tj ET
+BT /F2 8.5 Tf 470 477 Td (03:00 - 04:00 PM) Tj ET
+BT /F2 8 Tf 48 458 Td (Monday) Tj ET
+BT /F1 7.5 Tf 110 458 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 230 458 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 350 458 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 470 458 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+0.5 w 40 452 m 572 452 l S
+BT /F2 8 Tf 48 440 Td (Tuesday) Tj ET
+BT /F1 7.5 Tf 110 440 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 230 440 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 350 440 Td (CS405: AI \(Prof. Roy\)) Tj ET
+BT /F1 7.5 Tf 470 440 Td (CS404: CN Lab) Tj ET
+0.5 w 40 434 m 572 434 l S
+BT /F2 8 Tf 48 422 Td (Wednesday) Tj ET
+BT /F1 7.5 Tf 110 422 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 230 422 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 350 422 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 470 422 Td (CS401: OS Lab) Tj ET
+0.5 w 40 416 m 572 416 l S
+BT /F2 8 Tf 48 404 Td (Thursday) Tj ET
+BT /F1 7.5 Tf 110 404 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 230 404 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 350 404 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 470 404 Td (Library / Seminar) Tj ET
+0.5 w 40 398 m 572 398 l S
+BT /F2 8 Tf 48 386 Td (Friday) Tj ET
+BT /F1 7.5 Tf 110 386 Td (CS401: OS \(Prof. Sharma\)) Tj ET
+BT /F1 7.5 Tf 230 386 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 350 386 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 470 386 Td (Mentoring / Projects) Tj ET
+1 w 40 380 m 572 380 l S
+0.92 0.94 0.98 rg 40 345 532 22 re f 0 0 0 rg
+BT /F2 10 Tf 50 352 Td (DIVISION TY-C  |  Room: Hall 104 & Lab 3  |  Class Strength: 35 Students) Tj ET
+0.88 0.9 0.96 rg 40 322 532 18 re f 0 0 0 rg
+BT /F2 8.5 Tf 48 327 Td (DAY) Tj ET
+BT /F2 8.5 Tf 110 327 Td (09:30 - 10:30 AM) Tj ET
+BT /F2 8.5 Tf 230 327 Td (11:00 - 12:00 PM) Tj ET
+BT /F2 8.5 Tf 350 327 Td (01:30 - 02:30 PM) Tj ET
+BT /F2 8.5 Tf 470 327 Td (03:00 - 04:00 PM) Tj ET
+BT /F2 8 Tf 48 308 Td (Monday) Tj ET
+BT /F1 7.5 Tf 110 308 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 230 308 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 350 308 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 470 308 Td (CS405: AI \(Prof. Roy\)) Tj ET
+0.5 w 40 302 m 572 302 l S
+BT /F2 8 Tf 48 290 Td (Tuesday) Tj ET
+BT /F1 7.5 Tf 110 290 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 230 290 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 350 290 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 470 290 Td (CS405: AI Lab) Tj ET
+0.5 w 40 284 m 572 284 l S
+BT /F2 8 Tf 48 272 Td (Wednesday) Tj ET
+BT /F1 7.5 Tf 110 272 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 230 272 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 350 272 Td (CS405: AI \(Prof. Roy\)) Tj ET
+BT /F1 7.5 Tf 470 272 Td (CS404: CN Lab) Tj ET
+0.5 w 40 266 m 572 266 l S
+BT /F2 8 Tf 48 254 Td (Thursday) Tj ET
+BT /F1 7.5 Tf 110 254 Td (CS405: AI \(Prof. Roy\)) Tj ET
+BT /F1 7.5 Tf 230 254 Td (CS402: DBMS \(Dr. Priya\)) Tj ET
+BT /F1 7.5 Tf 350 254 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 470 254 Td (Library / Seminar) Tj ET
+0.5 w 40 248 m 572 248 l S
+BT /F2 8 Tf 48 236 Td (Friday) Tj ET
+BT /F1 7.5 Tf 110 236 Td (CS403: DSA \(Prof. Menon\)) Tj ET
+BT /F1 7.5 Tf 230 236 Td (CS404: CN \(Dr. Sunita\)) Tj ET
+BT /F1 7.5 Tf 350 236 Td (CS402: DBMS Lab) Tj ET
+BT /F1 7.5 Tf 470 236 Td (Mentoring / Reviews) Tj ET
+1 w 40 230 m 572 230 l S
+0.96 0.97 0.99 rg 40 60 532 25 re f 0 0 0 rg
+BT /F1 8.5 Tf 95 70 Td (Verified by Registrar & Dean of Academic Affairs | Metropolitan Institute of Technology) Tj ET
+BT /F2 7.5 Tf 92 50 Td (Attendance Requirement: Minimum 75% per course to qualify for University Final Examination) Tj ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000306 00000 n 
+trailer
+<< /Size 5 /Root 1 0 R >>
+startxref
+7179
+%%EOF

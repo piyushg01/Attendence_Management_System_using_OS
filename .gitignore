@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Compiled C binaries and object files
+*.exe
+*.o
+*.out
+os-engine/os_engine
+os-engine/os_engine.exe
+
+# Logs
+logs/*.log
+*.log
+npm-debug.log*
+
+# Environment and IDE files
+.env
+.env.local
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db

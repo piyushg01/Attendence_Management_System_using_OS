@@ -1,0 +1,4658 @@
+{
+  "subjects": [
+    {
+      "code": "CS401",
+      "name": "Operating Systems",
+      "credits": 4,
+      "conducted": 41,
+      "facultyId": "FAC01"
+    },
+    {
+      "code": "CS402",
+      "name": "Database Management Systems",
+      "credits": 4,
+      "conducted": 38,
+      "facultyId": "FAC02"
+    },
+    {
+      "code": "CS403",
+      "name": "Data Structures & Algorithms",
+      "credits": 4,
+      "conducted": 42,
+      "facultyId": "FAC03"
+    },
+    {
+      "code": "CS404",
+      "name": "Computer Networks",
+      "credits": 3,
+      "conducted": 36,
+      "facultyId": "FAC04"
+    },
+    {
+      "code": "CS405",
+      "name": "Artificial Intelligence & ML",
+      "credits": 3,
+      "conducted": 35,
+      "facultyId": "FAC05"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "FAC01",
+      "name": "Prof. Arvind Sharma",
+      "email": "arvind.sharma@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS401",
+      "username": "arvind.sharma@vit.edu",
+      "password": "CS401",
+      "divisions": [
+        "TY-A",
+        "TY-B"
+      ]
+    },
+    {
+      "id": "FAC02",
+      "name": "Dr. Priya Kulkarni",
+      "email": "priya.kulkarni@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS402",
+      "username": "priya.kulkarni@vit.edu",
+      "password": "CS402",
+      "divisions": [
+        "TY-B",
+        "TY-C"
+      ]
+    },
+    {
+      "id": "FAC03",
+      "name": "Prof. Rajesh Menon",
+      "email": "rajesh.menon@vit.edu",
+      "dept": "Information Tech",
+      "role": "faculty",
+      "subject": "CS403",
+      "username": "rajesh.menon@vit.edu",
+      "password": "CS403",
+      "divisions": [
+        "TY-A",
+        "TY-C"
+      ]
+    },
+    {
+      "id": "FAC04",
+      "name": "Dr. Sunita Deshmukh",
+      "email": "sunita.deshmukh@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS404",
+      "username": "sunita.deshmukh@vit.edu",
+      "password": "CS404",
+      "divisions": [
+        "TY-A",
+        "TY-B",
+        "TY-C"
+      ]
+    },
+    {
+      "id": "FAC05",
+      "name": "Prof. Vikram Roy",
+      "email": "vikram.roy@vit.edu",
+      "dept": "Data Science",
+      "role": "faculty",
+      "subject": "CS405",
+      "username": "vikram.roy@vit.edu",
+      "password": "CS405",
+      "divisions": [
+        "TY-A"
+      ]
+    },
+    {
+      "id": "FAC06",
+      "name": "Dr. Ananya Sen",
+      "email": "ananya.sen@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS401",
+      "username": "ananya.sen@vit.edu",
+      "password": "CS401",
+      "divisions": [
+        "TY-C"
+      ]
+    },
+    {
+      "id": "FAC07",
+      "name": "Prof. Suresh Nair",
+      "email": "suresh.nair@vit.edu",
+      "dept": "Information Tech",
+      "role": "faculty",
+      "subject": "CS402",
+      "username": "suresh.nair@vit.edu",
+      "password": "CS402",
+      "divisions": [
+        "TY-A"
+      ]
+    },
+    {
+      "id": "FAC08",
+      "name": "Dr. Neha Kapoor",
+      "email": "neha.kapoor@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS403",
+      "username": "neha.kapoor@vit.edu",
+      "password": "CS403",
+      "divisions": [
+        "TY-B"
+      ]
+    },
+    {
+      "id": "FAC09",
+      "name": "Prof. Tanmay Bhat",
+      "email": "tanmay.bhat@vit.edu",
+      "dept": "Computer Science",
+      "role": "faculty",
+      "subject": "CS404",
+      "username": "tanmay.bhat@vit.edu",
+      "password": "CS404",
+      "divisions": [
+        "TY-B",
+        "TY-C"
+      ]
+    },
+    {
+      "id": "FAC10",
+      "name": "Dr. Rohit Joshi",
+      "email": "rohit.joshi@vit.edu",
+      "dept": "Artificial Intelligence",
+      "role": "faculty",
+      "subject": "CS405",
+      "username": "rohit.joshi@vit.edu",
+      "password": "CS405",
+      "divisions": [
+        "TY-B",
+        "TY-C"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "STU1001",
+      "rollNumber": "TYA01",
+      "name": "Ayaan Chavan",
+      "email": "ayaan.chavan@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 149,
+      "overallPercentage": 77.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 29,
+          "conducted": 41,
+          "percentage": 70.7
+        },
+        "CS402": {
+          "attended": 28,
+          "conducted": 38,
+          "percentage": 73.7
+        },
+        "CS403": {
+          "attended": 31,
+          "conducted": 42,
+          "percentage": 73.8
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1002",
+      "rollNumber": "TYA02",
+      "name": "Ayush Mehta",
+      "email": "ayush.mehta@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 146,
+      "overallPercentage": 76,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 41,
+          "percentage": 78
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1003",
+      "rollNumber": "TYA03",
+      "name": "Khushi Bhosale",
+      "email": "khushi.bhosale@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 153,
+      "overallPercentage": 79.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 41,
+          "percentage": 80.5
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1004",
+      "rollNumber": "TYA04",
+      "name": "Tanvi Rao",
+      "email": "tanvi.rao@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 162,
+      "overallPercentage": 84.4,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 41,
+          "percentage": 85.4
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1005",
+      "rollNumber": "TYA05",
+      "name": "Pranav Deshmukh",
+      "email": "pranav.deshmukh@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 148,
+      "overallPercentage": 77.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 41,
+          "percentage": 78
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1006",
+      "rollNumber": "TYA06",
+      "name": "Aditya Jadhav",
+      "email": "aditya.jadhav@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 159,
+      "overallPercentage": 82.8,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 41,
+          "percentage": 78
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1007",
+      "rollNumber": "TYA07",
+      "name": "Ishaan Bhat",
+      "email": "ishaan.bhat@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 105,
+      "overallPercentage": 54.7,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 22,
+          "conducted": 41,
+          "percentage": 53.7
+        },
+        "CS402": {
+          "attended": 21,
+          "conducted": 38,
+          "percentage": 55.3
+        },
+        "CS403": {
+          "attended": 24,
+          "conducted": 42,
+          "percentage": 57.1
+        },
+        "CS404": {
+          "attended": 19,
+          "conducted": 36,
+          "percentage": 52.8
+        },
+        "CS405": {
+          "attended": 19,
+          "conducted": 35,
+          "percentage": 54.3
+        }
+      }
+    },
+    {
+      "id": "STU1008",
+      "rollNumber": "TYA08",
+      "name": "Ananya Kulkarni",
+      "email": "ananya.kulkarni@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 163,
+      "overallPercentage": 84.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 41,
+          "percentage": 85.4
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1009",
+      "rollNumber": "TYA09",
+      "name": "Navya Gaikwad",
+      "email": "navya.gaikwad@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 170,
+      "overallPercentage": 88.5,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 37,
+          "conducted": 41,
+          "percentage": 90.2
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1010",
+      "rollNumber": "TYA10",
+      "name": "Abhinav Iyer",
+      "email": "abhinav.iyer@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 144,
+      "overallPercentage": 75,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 41,
+          "percentage": 75.6
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1011",
+      "rollNumber": "TYA11",
+      "name": "Samarth Joshi",
+      "email": "samarth.joshi@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 168,
+      "overallPercentage": 87.5,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 41,
+          "percentage": 82.9
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 34,
+          "conducted": 36,
+          "percentage": 94.4
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1012",
+      "rollNumber": "TYA12",
+      "name": "Arjun Shinde",
+      "email": "arjun.shinde@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 165,
+      "overallPercentage": 85.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 41,
+          "percentage": 87.8
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1013",
+      "rollNumber": "TYA13",
+      "name": "Atharv Gupta",
+      "email": "atharv.gupta@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 173,
+      "overallPercentage": 90.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 37,
+          "conducted": 41,
+          "percentage": 90.2
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1014",
+      "rollNumber": "TYA14",
+      "name": "Gauri Patel",
+      "email": "gauri.patel@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 112,
+      "overallPercentage": 58.3,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 25,
+          "conducted": 41,
+          "percentage": 61
+        },
+        "CS402": {
+          "attended": 22,
+          "conducted": 38,
+          "percentage": 57.9
+        },
+        "CS403": {
+          "attended": 25,
+          "conducted": 42,
+          "percentage": 59.5
+        },
+        "CS404": {
+          "attended": 20,
+          "conducted": 36,
+          "percentage": 55.6
+        },
+        "CS405": {
+          "attended": 20,
+          "conducted": 35,
+          "percentage": 57.1
+        }
+      }
+    },
+    {
+      "id": "STU1015",
+      "rollNumber": "TYA15",
+      "name": "Prisha More",
+      "email": "prisha.more@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 140,
+      "overallPercentage": 72.9,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 41,
+          "percentage": 73.2
+        },
+        "CS402": {
+          "attended": 28,
+          "conducted": 38,
+          "percentage": 73.7
+        },
+        "CS403": {
+          "attended": 31,
+          "conducted": 42,
+          "percentage": 73.8
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1016",
+      "rollNumber": "TYA16",
+      "name": "Dhruv Menon",
+      "email": "dhruv.menon@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 175,
+      "overallPercentage": 91.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 41,
+          "percentage": 87.8
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1017",
+      "rollNumber": "TYA17",
+      "name": "Yash Verma",
+      "email": "yash.verma@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 175,
+      "overallPercentage": 91.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 41,
+          "percentage": 92.7
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 39,
+          "conducted": 42,
+          "percentage": 92.9
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1018",
+      "rollNumber": "TYA18",
+      "name": "Reyansh Pawar",
+      "email": "reyansh.pawar@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 148,
+      "overallPercentage": 77.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 41,
+          "percentage": 78
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1019",
+      "rollNumber": "TYA19",
+      "name": "Aryan Nair",
+      "email": "aryan.nair@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 154,
+      "overallPercentage": 80.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 41,
+          "percentage": 80.5
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1020",
+      "rollNumber": "TYA20",
+      "name": "Kavya Sharma",
+      "email": "kavya.sharma@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 150,
+      "overallPercentage": 78.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 41,
+          "percentage": 80.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1021",
+      "rollNumber": "TYA21",
+      "name": "Saanvi Chavan",
+      "email": "saanvi.chavan@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 100,
+      "overallPercentage": 52.1,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 20,
+          "conducted": 41,
+          "percentage": 48.8
+        },
+        "CS402": {
+          "attended": 18,
+          "conducted": 38,
+          "percentage": 47.4
+        },
+        "CS403": {
+          "attended": 20,
+          "conducted": 42,
+          "percentage": 47.6
+        },
+        "CS404": {
+          "attended": 21,
+          "conducted": 36,
+          "percentage": 58.3
+        },
+        "CS405": {
+          "attended": 21,
+          "conducted": 35,
+          "percentage": 60
+        }
+      }
+    },
+    {
+      "id": "STU1022",
+      "rollNumber": "TYA22",
+      "name": "Manav Mehta",
+      "email": "manav.mehta@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 150,
+      "overallPercentage": 78.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 41,
+          "percentage": 80.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1023",
+      "rollNumber": "TYA23",
+      "name": "Vivaan Bhosale",
+      "email": "vivaan.bhosale@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 158,
+      "overallPercentage": 82.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 41,
+          "percentage": 82.9
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1024",
+      "rollNumber": "TYA24",
+      "name": "Krishna Rao",
+      "email": "krishna.rao@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 165,
+      "overallPercentage": 85.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 41,
+          "percentage": 87.8
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1025",
+      "rollNumber": "TYA25",
+      "name": "Kabir Deshmukh",
+      "email": "kabir.deshmukh@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 146,
+      "overallPercentage": 76,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 41,
+          "percentage": 78
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1026",
+      "rollNumber": "TYA26",
+      "name": "Mira Jadhav",
+      "email": "mira.jadhav@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 162,
+      "overallPercentage": 84.4,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 41,
+          "percentage": 80.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1027",
+      "rollNumber": "TYA27",
+      "name": "Vanya Bhat",
+      "email": "vanya.bhat@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 158,
+      "overallPercentage": 82.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 41,
+          "percentage": 82.9
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1028",
+      "rollNumber": "TYA28",
+      "name": "Rohan Kulkarni",
+      "email": "rohan.kulkarni@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 114,
+      "overallPercentage": 59.4,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 25,
+          "conducted": 41,
+          "percentage": 61
+        },
+        "CS402": {
+          "attended": 23,
+          "conducted": 38,
+          "percentage": 60.5
+        },
+        "CS403": {
+          "attended": 25,
+          "conducted": 42,
+          "percentage": 59.5
+        },
+        "CS404": {
+          "attended": 21,
+          "conducted": 36,
+          "percentage": 58.3
+        },
+        "CS405": {
+          "attended": 20,
+          "conducted": 35,
+          "percentage": 57.1
+        }
+      }
+    },
+    {
+      "id": "STU1029",
+      "rollNumber": "TYA29",
+      "name": "Vihaan Gaikwad",
+      "email": "vihaan.gaikwad@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 175,
+      "overallPercentage": 91.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 41,
+          "percentage": 92.7
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 39,
+          "conducted": 42,
+          "percentage": 92.9
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1030",
+      "rollNumber": "TYA30",
+      "name": "Shaurya Iyer",
+      "email": "shaurya.iyer@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 143,
+      "overallPercentage": 74.5,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 41,
+          "percentage": 75.6
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1031",
+      "rollNumber": "TYA31",
+      "name": "Diya Joshi",
+      "email": "diya.joshi@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 172,
+      "overallPercentage": 89.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 41,
+          "percentage": 85.4
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1032",
+      "rollNumber": "TYA32",
+      "name": "Pari Shinde",
+      "email": "pari.shinde@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 169,
+      "overallPercentage": 88,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 37,
+          "conducted": 41,
+          "percentage": 90.2
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1033",
+      "rollNumber": "TYA33",
+      "name": "Advait Gupta",
+      "email": "advait.gupta@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 176,
+      "overallPercentage": 91.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 41,
+          "percentage": 92.7
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 39,
+          "conducted": 42,
+          "percentage": 92.9
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1034",
+      "rollNumber": "TYA34",
+      "name": "Siddharth Patel",
+      "email": "siddharth.patel@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 185,
+      "overallPercentage": 96.4,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 40,
+          "conducted": 41,
+          "percentage": 97.6
+        },
+        "CS402": {
+          "attended": 37,
+          "conducted": 38,
+          "percentage": 97.4
+        },
+        "CS403": {
+          "attended": 41,
+          "conducted": 42,
+          "percentage": 97.6
+        },
+        "CS404": {
+          "attended": 34,
+          "conducted": 36,
+          "percentage": 94.4
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1035",
+      "rollNumber": "TYA35",
+      "name": "Sai More",
+      "email": "sai.more@student.vit.edu",
+      "division": "TY-A",
+      "totalClassesConducted": 192,
+      "totalClassesAttended": 119,
+      "overallPercentage": 62,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 26,
+          "conducted": 41,
+          "percentage": 63.4
+        },
+        "CS402": {
+          "attended": 24,
+          "conducted": 38,
+          "percentage": 63.2
+        },
+        "CS403": {
+          "attended": 26,
+          "conducted": 42,
+          "percentage": 61.9
+        },
+        "CS404": {
+          "attended": 22,
+          "conducted": 36,
+          "percentage": 61.1
+        },
+        "CS405": {
+          "attended": 21,
+          "conducted": 35,
+          "percentage": 60
+        }
+      }
+    },
+    {
+      "id": "STU1036",
+      "rollNumber": "TYB01",
+      "name": "Rudra Menon",
+      "email": "rudra.menon@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 145,
+      "overallPercentage": 75.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 29,
+          "conducted": 40,
+          "percentage": 72.5
+        },
+        "CS402": {
+          "attended": 27,
+          "conducted": 38,
+          "percentage": 71.1
+        },
+        "CS403": {
+          "attended": 30,
+          "conducted": 42,
+          "percentage": 71.4
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1037",
+      "rollNumber": "TYB02",
+      "name": "Isha Verma",
+      "email": "isha.verma@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 143,
+      "overallPercentage": 74.9,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1038",
+      "rollNumber": "TYB03",
+      "name": "Riya Pawar",
+      "email": "riya.pawar@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 151,
+      "overallPercentage": 79.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1039",
+      "rollNumber": "TYB04",
+      "name": "Harsh Nair",
+      "email": "harsh.nair@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 158,
+      "overallPercentage": 82.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1040",
+      "rollNumber": "TYB05",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 147,
+      "overallPercentage": 77,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1041",
+      "rollNumber": "TYB06",
+      "name": "Ayaan Chavan",
+      "email": "ayaan.chavan@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 155,
+      "overallPercentage": 81.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1042",
+      "rollNumber": "TYB07",
+      "name": "Ayush Mehta",
+      "email": "ayush.mehta@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 94,
+      "overallPercentage": 49.2,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 20,
+          "conducted": 40,
+          "percentage": 50
+        },
+        "CS402": {
+          "attended": 19,
+          "conducted": 38,
+          "percentage": 50
+        },
+        "CS403": {
+          "attended": 21,
+          "conducted": 42,
+          "percentage": 50
+        },
+        "CS404": {
+          "attended": 17,
+          "conducted": 36,
+          "percentage": 47.2
+        },
+        "CS405": {
+          "attended": 17,
+          "conducted": 35,
+          "percentage": 48.6
+        }
+      }
+    },
+    {
+      "id": "STU1043",
+      "rollNumber": "TYB08",
+      "name": "Khushi Bhosale",
+      "email": "khushi.bhosale@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 161,
+      "overallPercentage": 84.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1044",
+      "rollNumber": "TYB09",
+      "name": "Tanvi Rao",
+      "email": "tanvi.rao@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 168,
+      "overallPercentage": 88,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1045",
+      "rollNumber": "TYB10",
+      "name": "Pranav Deshmukh",
+      "email": "pranav.deshmukh@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 143,
+      "overallPercentage": 74.9,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1046",
+      "rollNumber": "TYB11",
+      "name": "Aditya Jadhav",
+      "email": "aditya.jadhav@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 165,
+      "overallPercentage": 86.4,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 34,
+          "conducted": 36,
+          "percentage": 94.4
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1047",
+      "rollNumber": "TYB12",
+      "name": "Ishaan Bhat",
+      "email": "ishaan.bhat@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 162,
+      "overallPercentage": 84.8,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1048",
+      "rollNumber": "TYB13",
+      "name": "Ananya Kulkarni",
+      "email": "ananya.kulkarni@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 169,
+      "overallPercentage": 88.5,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1049",
+      "rollNumber": "TYB14",
+      "name": "Navya Gaikwad",
+      "email": "navya.gaikwad@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 120,
+      "overallPercentage": 62.8,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 26,
+          "conducted": 40,
+          "percentage": 65
+        },
+        "CS402": {
+          "attended": 24,
+          "conducted": 38,
+          "percentage": 63.2
+        },
+        "CS403": {
+          "attended": 27,
+          "conducted": 42,
+          "percentage": 64.3
+        },
+        "CS404": {
+          "attended": 22,
+          "conducted": 36,
+          "percentage": 61.1
+        },
+        "CS405": {
+          "attended": 21,
+          "conducted": 35,
+          "percentage": 60
+        }
+      }
+    },
+    {
+      "id": "STU1050",
+      "rollNumber": "TYB15",
+      "name": "Abhinav Iyer",
+      "email": "abhinav.iyer@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 140,
+      "overallPercentage": 73.3,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 28,
+          "conducted": 38,
+          "percentage": 73.7
+        },
+        "CS403": {
+          "attended": 31,
+          "conducted": 42,
+          "percentage": 73.8
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1051",
+      "rollNumber": "TYB16",
+      "name": "Samarth Joshi",
+      "email": "samarth.joshi@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 174,
+      "overallPercentage": 91.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 40,
+          "percentage": 87.5
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1052",
+      "rollNumber": "TYB17",
+      "name": "Arjun Shinde",
+      "email": "arjun.shinde@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 172,
+      "overallPercentage": 90.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1053",
+      "rollNumber": "TYB18",
+      "name": "Atharv Gupta",
+      "email": "atharv.gupta@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 179,
+      "overallPercentage": 93.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 40,
+          "percentage": 95
+        },
+        "CS402": {
+          "attended": 36,
+          "conducted": 38,
+          "percentage": 94.7
+        },
+        "CS403": {
+          "attended": 40,
+          "conducted": 42,
+          "percentage": 95.2
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1054",
+      "rollNumber": "TYB19",
+      "name": "Gauri Patel",
+      "email": "gauri.patel@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 152,
+      "overallPercentage": 79.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1055",
+      "rollNumber": "TYB20",
+      "name": "Prisha More",
+      "email": "prisha.more@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 149,
+      "overallPercentage": 78,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1056",
+      "rollNumber": "TYB21",
+      "name": "Dhruv Menon",
+      "email": "dhruv.menon@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 108,
+      "overallPercentage": 56.5,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 21,
+          "conducted": 40,
+          "percentage": 52.5
+        },
+        "CS402": {
+          "attended": 20,
+          "conducted": 38,
+          "percentage": 52.6
+        },
+        "CS403": {
+          "attended": 22,
+          "conducted": 42,
+          "percentage": 52.4
+        },
+        "CS404": {
+          "attended": 23,
+          "conducted": 36,
+          "percentage": 63.9
+        },
+        "CS405": {
+          "attended": 22,
+          "conducted": 35,
+          "percentage": 62.9
+        }
+      }
+    },
+    {
+      "id": "STU1057",
+      "rollNumber": "TYB22",
+      "name": "Yash Verma",
+      "email": "yash.verma@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 147,
+      "overallPercentage": 77,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1058",
+      "rollNumber": "TYB23",
+      "name": "Reyansh Pawar",
+      "email": "reyansh.pawar@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 154,
+      "overallPercentage": 80.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1059",
+      "rollNumber": "TYB24",
+      "name": "Aryan Nair",
+      "email": "aryan.nair@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 162,
+      "overallPercentage": 84.8,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1060",
+      "rollNumber": "TYB25",
+      "name": "Kavya Sharma",
+      "email": "kavya.sharma@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 145,
+      "overallPercentage": 75.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1061",
+      "rollNumber": "TYB26",
+      "name": "Saanvi Chavan",
+      "email": "saanvi.chavan@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 160,
+      "overallPercentage": 83.8,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1062",
+      "rollNumber": "TYB27",
+      "name": "Manav Mehta",
+      "email": "manav.mehta@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 157,
+      "overallPercentage": 82.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1063",
+      "rollNumber": "TYB28",
+      "name": "Vivaan Bhosale",
+      "email": "vivaan.bhosale@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 103,
+      "overallPercentage": 53.9,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 22,
+          "conducted": 40,
+          "percentage": 55
+        },
+        "CS402": {
+          "attended": 21,
+          "conducted": 38,
+          "percentage": 55.3
+        },
+        "CS403": {
+          "attended": 23,
+          "conducted": 42,
+          "percentage": 54.8
+        },
+        "CS404": {
+          "attended": 19,
+          "conducted": 36,
+          "percentage": 52.8
+        },
+        "CS405": {
+          "attended": 18,
+          "conducted": 35,
+          "percentage": 51.4
+        }
+      }
+    },
+    {
+      "id": "STU1064",
+      "rollNumber": "TYB29",
+      "name": "Krishna Rao",
+      "email": "krishna.rao@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 172,
+      "overallPercentage": 90.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1065",
+      "rollNumber": "TYB30",
+      "name": "Kabir Deshmukh",
+      "email": "kabir.deshmukh@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 142,
+      "overallPercentage": 74.3,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1066",
+      "rollNumber": "TYB31",
+      "name": "Mira Jadhav",
+      "email": "mira.jadhav@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 170,
+      "overallPercentage": 89,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1067",
+      "rollNumber": "TYB32",
+      "name": "Vanya Bhat",
+      "email": "vanya.bhat@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 166,
+      "overallPercentage": 86.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 40,
+          "percentage": 87.5
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1068",
+      "rollNumber": "TYB33",
+      "name": "Rohan Kulkarni",
+      "email": "rohan.kulkarni@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 174,
+      "overallPercentage": 91.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 37,
+          "conducted": 40,
+          "percentage": 92.5
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 39,
+          "conducted": 42,
+          "percentage": 92.9
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1069",
+      "rollNumber": "TYB34",
+      "name": "Vihaan Gaikwad",
+      "email": "vihaan.gaikwad@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 180,
+      "overallPercentage": 94.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 40,
+          "percentage": 95
+        },
+        "CS402": {
+          "attended": 36,
+          "conducted": 38,
+          "percentage": 94.7
+        },
+        "CS403": {
+          "attended": 40,
+          "conducted": 42,
+          "percentage": 95.2
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1070",
+      "rollNumber": "TYB35",
+      "name": "Shaurya Iyer",
+      "email": "shaurya.iyer@student.vit.edu",
+      "division": "TY-B",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 108,
+      "overallPercentage": 56.5,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 23,
+          "conducted": 40,
+          "percentage": 57.5
+        },
+        "CS402": {
+          "attended": 22,
+          "conducted": 38,
+          "percentage": 57.9
+        },
+        "CS403": {
+          "attended": 24,
+          "conducted": 42,
+          "percentage": 57.1
+        },
+        "CS404": {
+          "attended": 20,
+          "conducted": 36,
+          "percentage": 55.6
+        },
+        "CS405": {
+          "attended": 19,
+          "conducted": 35,
+          "percentage": 54.3
+        }
+      }
+    },
+    {
+      "id": "STU1071",
+      "rollNumber": "TYC01",
+      "name": "Diya Joshi",
+      "email": "diya.joshi@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 176,
+      "overallPercentage": 92.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1072",
+      "rollNumber": "TYC02",
+      "name": "Pari Shinde",
+      "email": "pari.shinde@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 142,
+      "overallPercentage": 74.3,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1073",
+      "rollNumber": "TYC03",
+      "name": "Advait Gupta",
+      "email": "advait.gupta@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 149,
+      "overallPercentage": 78,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1074",
+      "rollNumber": "TYC04",
+      "name": "Siddharth Patel",
+      "email": "siddharth.patel@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 157,
+      "overallPercentage": 82.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1075",
+      "rollNumber": "TYC05",
+      "name": "Sai More",
+      "email": "sai.more@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 147,
+      "overallPercentage": 77,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1076",
+      "rollNumber": "TYC06",
+      "name": "Rudra Menon",
+      "email": "rudra.menon@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 154,
+      "overallPercentage": 80.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1077",
+      "rollNumber": "TYC07",
+      "name": "Isha Verma",
+      "email": "isha.verma@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 105,
+      "overallPercentage": 55,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 22,
+          "conducted": 40,
+          "percentage": 55
+        },
+        "CS402": {
+          "attended": 21,
+          "conducted": 38,
+          "percentage": 55.3
+        },
+        "CS403": {
+          "attended": 24,
+          "conducted": 42,
+          "percentage": 57.1
+        },
+        "CS404": {
+          "attended": 19,
+          "conducted": 36,
+          "percentage": 52.8
+        },
+        "CS405": {
+          "attended": 19,
+          "conducted": 35,
+          "percentage": 54.3
+        }
+      }
+    },
+    {
+      "id": "STU1078",
+      "rollNumber": "TYC08",
+      "name": "Riya Pawar",
+      "email": "riya.pawar@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 158,
+      "overallPercentage": 82.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 29,
+          "conducted": 36,
+          "percentage": 80.6
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1079",
+      "rollNumber": "TYC09",
+      "name": "Harsh Nair",
+      "email": "harsh.nair@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 166,
+      "overallPercentage": 86.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 40,
+          "percentage": 87.5
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1080",
+      "rollNumber": "TYC10",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 143,
+      "overallPercentage": 74.9,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1081",
+      "rollNumber": "TYC11",
+      "name": "Ayaan Chavan",
+      "email": "ayaan.chavan@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 163,
+      "overallPercentage": 85.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1082",
+      "rollNumber": "TYC12",
+      "name": "Ayush Mehta",
+      "email": "ayush.mehta@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 161,
+      "overallPercentage": 84.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1083",
+      "rollNumber": "TYC13",
+      "name": "Khushi Bhosale",
+      "email": "khushi.bhosale@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 168,
+      "overallPercentage": 88,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1084",
+      "rollNumber": "TYC14",
+      "name": "Tanvi Rao",
+      "email": "tanvi.rao@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 111,
+      "overallPercentage": 58.1,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 24,
+          "conducted": 40,
+          "percentage": 60
+        },
+        "CS402": {
+          "attended": 22,
+          "conducted": 38,
+          "percentage": 57.9
+        },
+        "CS403": {
+          "attended": 25,
+          "conducted": 42,
+          "percentage": 59.5
+        },
+        "CS404": {
+          "attended": 20,
+          "conducted": 36,
+          "percentage": 55.6
+        },
+        "CS405": {
+          "attended": 20,
+          "conducted": 35,
+          "percentage": 57.1
+        }
+      }
+    },
+    {
+      "id": "STU1085",
+      "rollNumber": "TYC15",
+      "name": "Pranav Deshmukh",
+      "email": "pranav.deshmukh@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 140,
+      "overallPercentage": 73.3,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 28,
+          "conducted": 38,
+          "percentage": 73.7
+        },
+        "CS403": {
+          "attended": 31,
+          "conducted": 42,
+          "percentage": 73.8
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1086",
+      "rollNumber": "TYC16",
+      "name": "Aditya Jadhav",
+      "email": "aditya.jadhav@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 172,
+      "overallPercentage": 90.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 35,
+          "conducted": 36,
+          "percentage": 97.2
+        },
+        "CS405": {
+          "attended": 34,
+          "conducted": 35,
+          "percentage": 97.1
+        }
+      }
+    },
+    {
+      "id": "STU1087",
+      "rollNumber": "TYC17",
+      "name": "Ishaan Bhat",
+      "email": "ishaan.bhat@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 169,
+      "overallPercentage": 88.5,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1088",
+      "rollNumber": "TYC18",
+      "name": "Ananya Kulkarni",
+      "email": "ananya.kulkarni@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 178,
+      "overallPercentage": 93.2,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 40,
+          "percentage": 95
+        },
+        "CS402": {
+          "attended": 36,
+          "conducted": 38,
+          "percentage": 94.7
+        },
+        "CS403": {
+          "attended": 39,
+          "conducted": 42,
+          "percentage": 92.9
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1089",
+      "rollNumber": "TYC19",
+      "name": "Navya Gaikwad",
+      "email": "navya.gaikwad@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 184,
+      "overallPercentage": 96.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 39,
+          "conducted": 40,
+          "percentage": 97.5
+        },
+        "CS402": {
+          "attended": 37,
+          "conducted": 38,
+          "percentage": 97.4
+        },
+        "CS403": {
+          "attended": 41,
+          "conducted": 42,
+          "percentage": 97.6
+        },
+        "CS404": {
+          "attended": 34,
+          "conducted": 36,
+          "percentage": 94.4
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1090",
+      "rollNumber": "TYC20",
+      "name": "Abhinav Iyer",
+      "email": "abhinav.iyer@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 149,
+      "overallPercentage": 78,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1091",
+      "rollNumber": "TYC21",
+      "name": "Samarth Joshi",
+      "email": "samarth.joshi@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 99,
+      "overallPercentage": 51.8,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 19,
+          "conducted": 40,
+          "percentage": 47.5
+        },
+        "CS402": {
+          "attended": 18,
+          "conducted": 38,
+          "percentage": 47.4
+        },
+        "CS403": {
+          "attended": 20,
+          "conducted": 42,
+          "percentage": 47.6
+        },
+        "CS404": {
+          "attended": 21,
+          "conducted": 36,
+          "percentage": 58.3
+        },
+        "CS405": {
+          "attended": 21,
+          "conducted": 35,
+          "percentage": 60
+        }
+      }
+    },
+    {
+      "id": "STU1092",
+      "rollNumber": "TYC22",
+      "name": "Arjun Shinde",
+      "email": "arjun.shinde@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 145,
+      "overallPercentage": 75.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1093",
+      "rollNumber": "TYC23",
+      "name": "Atharv Gupta",
+      "email": "atharv.gupta@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 152,
+      "overallPercentage": 79.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 32,
+          "conducted": 40,
+          "percentage": 80
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 27,
+          "conducted": 35,
+          "percentage": 77.1
+        }
+      }
+    },
+    {
+      "id": "STU1094",
+      "rollNumber": "TYC24",
+      "name": "Gauri Patel",
+      "email": "gauri.patel@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 161,
+      "overallPercentage": 84.3,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 34,
+          "conducted": 40,
+          "percentage": 85
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 36,
+          "conducted": 42,
+          "percentage": 85.7
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1095",
+      "rollNumber": "TYC25",
+      "name": "Prisha More",
+      "email": "prisha.more@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 145,
+      "overallPercentage": 75.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 27,
+          "conducted": 36,
+          "percentage": 75
+        },
+        "CS405": {
+          "attended": 26,
+          "conducted": 35,
+          "percentage": 74.3
+        }
+      }
+    },
+    {
+      "id": "STU1096",
+      "rollNumber": "TYC26",
+      "name": "Dhruv Menon",
+      "email": "dhruv.menon@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 158,
+      "overallPercentage": 82.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 31,
+          "conducted": 40,
+          "percentage": 77.5
+        },
+        "CS402": {
+          "attended": 30,
+          "conducted": 38,
+          "percentage": 78.9
+        },
+        "CS403": {
+          "attended": 33,
+          "conducted": 42,
+          "percentage": 78.6
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1097",
+      "rollNumber": "TYC27",
+      "name": "Yash Verma",
+      "email": "yash.verma@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 154,
+      "overallPercentage": 80.6,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 31,
+          "conducted": 38,
+          "percentage": 81.6
+        },
+        "CS403": {
+          "attended": 34,
+          "conducted": 42,
+          "percentage": 81
+        },
+        "CS404": {
+          "attended": 28,
+          "conducted": 36,
+          "percentage": 77.8
+        },
+        "CS405": {
+          "attended": 28,
+          "conducted": 35,
+          "percentage": 80
+        }
+      }
+    },
+    {
+      "id": "STU1098",
+      "rollNumber": "TYC28",
+      "name": "Reyansh Pawar",
+      "email": "reyansh.pawar@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 113,
+      "overallPercentage": 59.2,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 24,
+          "conducted": 40,
+          "percentage": 60
+        },
+        "CS402": {
+          "attended": 23,
+          "conducted": 38,
+          "percentage": 60.5
+        },
+        "CS403": {
+          "attended": 25,
+          "conducted": 42,
+          "percentage": 59.5
+        },
+        "CS404": {
+          "attended": 21,
+          "conducted": 36,
+          "percentage": 58.3
+        },
+        "CS405": {
+          "attended": 20,
+          "conducted": 35,
+          "percentage": 57.1
+        }
+      }
+    },
+    {
+      "id": "STU1099",
+      "rollNumber": "TYC29",
+      "name": "Aryan Nair",
+      "email": "aryan.nair@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 169,
+      "overallPercentage": 88.5,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 34,
+          "conducted": 38,
+          "percentage": 89.5
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 31,
+          "conducted": 36,
+          "percentage": 86.1
+        },
+        "CS405": {
+          "attended": 30,
+          "conducted": 35,
+          "percentage": 85.7
+        }
+      }
+    },
+    {
+      "id": "STU1100",
+      "rollNumber": "TYC30",
+      "name": "Kavya Sharma",
+      "email": "kavya.sharma@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 142,
+      "overallPercentage": 74.3,
+      "status": "Warning",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 30,
+          "conducted": 40,
+          "percentage": 75
+        },
+        "CS402": {
+          "attended": 29,
+          "conducted": 38,
+          "percentage": 76.3
+        },
+        "CS403": {
+          "attended": 32,
+          "conducted": 42,
+          "percentage": 76.2
+        },
+        "CS404": {
+          "attended": 26,
+          "conducted": 36,
+          "percentage": 72.2
+        },
+        "CS405": {
+          "attended": 25,
+          "conducted": 35,
+          "percentage": 71.4
+        }
+      }
+    },
+    {
+      "id": "STU1101",
+      "rollNumber": "TYC31",
+      "name": "Saanvi Chavan",
+      "email": "saanvi.chavan@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 167,
+      "overallPercentage": 87.4,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 33,
+          "conducted": 40,
+          "percentage": 82.5
+        },
+        "CS402": {
+          "attended": 32,
+          "conducted": 38,
+          "percentage": 84.2
+        },
+        "CS403": {
+          "attended": 35,
+          "conducted": 42,
+          "percentage": 83.3
+        },
+        "CS404": {
+          "attended": 34,
+          "conducted": 36,
+          "percentage": 94.4
+        },
+        "CS405": {
+          "attended": 33,
+          "conducted": 35,
+          "percentage": 94.3
+        }
+      }
+    },
+    {
+      "id": "STU1102",
+      "rollNumber": "TYC32",
+      "name": "Manav Mehta",
+      "email": "manav.mehta@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 164,
+      "overallPercentage": 85.9,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 35,
+          "conducted": 40,
+          "percentage": 87.5
+        },
+        "CS402": {
+          "attended": 33,
+          "conducted": 38,
+          "percentage": 86.8
+        },
+        "CS403": {
+          "attended": 37,
+          "conducted": 42,
+          "percentage": 88.1
+        },
+        "CS404": {
+          "attended": 30,
+          "conducted": 36,
+          "percentage": 83.3
+        },
+        "CS405": {
+          "attended": 29,
+          "conducted": 35,
+          "percentage": 82.9
+        }
+      }
+    },
+    {
+      "id": "STU1103",
+      "rollNumber": "TYC33",
+      "name": "Vivaan Bhosale",
+      "email": "vivaan.bhosale@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 172,
+      "overallPercentage": 90.1,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 36,
+          "conducted": 40,
+          "percentage": 90
+        },
+        "CS402": {
+          "attended": 35,
+          "conducted": 38,
+          "percentage": 92.1
+        },
+        "CS403": {
+          "attended": 38,
+          "conducted": 42,
+          "percentage": 90.5
+        },
+        "CS404": {
+          "attended": 32,
+          "conducted": 36,
+          "percentage": 88.9
+        },
+        "CS405": {
+          "attended": 31,
+          "conducted": 35,
+          "percentage": 88.6
+        }
+      }
+    },
+    {
+      "id": "STU1104",
+      "rollNumber": "TYC34",
+      "name": "Krishna Rao",
+      "email": "krishna.rao@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 179,
+      "overallPercentage": 93.7,
+      "status": "Eligible",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 38,
+          "conducted": 40,
+          "percentage": 95
+        },
+        "CS402": {
+          "attended": 36,
+          "conducted": 38,
+          "percentage": 94.7
+        },
+        "CS403": {
+          "attended": 40,
+          "conducted": 42,
+          "percentage": 95.2
+        },
+        "CS404": {
+          "attended": 33,
+          "conducted": 36,
+          "percentage": 91.7
+        },
+        "CS405": {
+          "attended": 32,
+          "conducted": 35,
+          "percentage": 91.4
+        }
+      }
+    },
+    {
+      "id": "STU1105",
+      "rollNumber": "TYC35",
+      "name": "Kabir Deshmukh",
+      "email": "kabir.deshmukh@student.vit.edu",
+      "division": "TY-C",
+      "totalClassesConducted": 191,
+      "totalClassesAttended": 118,
+      "overallPercentage": 61.8,
+      "status": "Critical",
+      "subjectAttendance": {
+        "CS401": {
+          "attended": 25,
+          "conducted": 40,
+          "percentage": 62.5
+        },
+        "CS402": {
+          "attended": 24,
+          "conducted": 38,
+          "percentage": 63.2
+        },
+        "CS403": {
+          "attended": 26,
+          "conducted": 42,
+          "percentage": 61.9
+        },
+        "CS404": {
+          "attended": 22,
+          "conducted": 36,
+          "percentage": 61.1
+        },
+        "CS405": {
+          "attended": 21,
+          "conducted": 35,
+          "percentage": 60
+        }
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "USR_ADMIN",
+      "username": "administration@vit.edu",
+      "role": "admin",
+      "name": "College Administration",
+      "email": "administration@vit.edu",
+      "password": "vit_college_pune"
+    },
+    {
+      "id": "USR_FAC01",
+      "username": "arvind.sharma@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC01",
+      "name": "Prof. Arvind Sharma",
+      "email": "arvind.sharma@vit.edu",
+      "password": "CS401"
+    },
+    {
+      "id": "USR_FAC02",
+      "username": "priya.kulkarni@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC02",
+      "name": "Dr. Priya Kulkarni",
+      "email": "priya.kulkarni@vit.edu",
+      "password": "CS402"
+    },
+    {
+      "id": "USR_FAC03",
+      "username": "rajesh.menon@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC03",
+      "name": "Prof. Rajesh Menon",
+      "email": "rajesh.menon@vit.edu",
+      "password": "CS403"
+    },
+    {
+      "id": "USR_FAC04",
+      "username": "sunita.deshmukh@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC04",
+      "name": "Dr. Sunita Deshmukh",
+      "email": "sunita.deshmukh@vit.edu",
+      "password": "CS404"
+    },
+    {
+      "id": "USR_FAC05",
+      "username": "vikram.roy@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC05",
+      "name": "Prof. Vikram Roy",
+      "email": "vikram.roy@vit.edu",
+      "password": "CS405"
+    },
+    {
+      "id": "USR_FAC06",
+      "username": "ananya.sen@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC06",
+      "name": "Dr. Ananya Sen",
+      "email": "ananya.sen@vit.edu",
+      "password": "CS401"
+    },
+    {
+      "id": "USR_FAC07",
+      "username": "suresh.nair@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC07",
+      "name": "Prof. Suresh Nair",
+      "email": "suresh.nair@vit.edu",
+      "password": "CS402"
+    },
+    {
+      "id": "USR_FAC08",
+      "username": "neha.kapoor@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC08",
+      "name": "Dr. Neha Kapoor",
+      "email": "neha.kapoor@vit.edu",
+      "password": "CS403"
+    },
+    {
+      "id": "USR_FAC09",
+      "username": "tanmay.bhat@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC09",
+      "name": "Prof. Tanmay Bhat",
+      "email": "tanmay.bhat@vit.edu",
+      "password": "CS404"
+    },
+    {
+      "id": "USR_FAC10",
+      "username": "rohit.joshi@vit.edu",
+      "role": "faculty",
+      "facultyId": "FAC10",
+      "name": "Dr. Rohit Joshi",
+      "email": "rohit.joshi@vit.edu",
+      "password": "CS405"
+    }
+  ],
+  "divisions": [
+    "TY-A",
+    "TY-B",
+    "TY-C"
+  ],
+  "timetable": [
+    {
+      "id": "TT_001",
+      "day": "Monday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-A",
+      "facultyId": "FAC01",
+      "facultyName": "Prof. Arvind Sharma",
+      "room": "Hall 201"
+    },
+    {
+      "id": "TT_002",
+      "day": "Wednesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-A",
+      "facultyId": "FAC01",
+      "facultyName": "Prof. Arvind Sharma",
+      "room": "Hall 201"
+    },
+    {
+      "id": "TT_003",
+      "day": "Tuesday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-B",
+      "facultyId": "FAC01",
+      "facultyName": "Prof. Arvind Sharma",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_004",
+      "day": "Thursday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-B",
+      "facultyId": "FAC01",
+      "facultyName": "Prof. Arvind Sharma",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_005",
+      "day": "Tuesday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-B",
+      "facultyId": "FAC02",
+      "facultyName": "Dr. Priya Kulkarni",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_006",
+      "day": "Thursday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-B",
+      "facultyId": "FAC02",
+      "facultyName": "Dr. Priya Kulkarni",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_007",
+      "day": "Wednesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-C",
+      "facultyId": "FAC02",
+      "facultyName": "Dr. Priya Kulkarni",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_008",
+      "day": "Friday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-C",
+      "facultyId": "FAC02",
+      "facultyName": "Dr. Priya Kulkarni",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_009",
+      "day": "Wednesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-A",
+      "facultyId": "FAC03",
+      "facultyName": "Prof. Rajesh Menon",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_010",
+      "day": "Friday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-A",
+      "facultyId": "FAC03",
+      "facultyName": "Prof. Rajesh Menon",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_011",
+      "day": "Thursday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-C",
+      "facultyId": "FAC03",
+      "facultyName": "Prof. Rajesh Menon",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_012",
+      "day": "Monday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-C",
+      "facultyId": "FAC03",
+      "facultyName": "Prof. Rajesh Menon",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_013",
+      "day": "Thursday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-A",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_014",
+      "day": "Monday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-A",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_015",
+      "day": "Friday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-B",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 2"
+    },
+    {
+      "id": "TT_016",
+      "day": "Tuesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-B",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 2"
+    },
+    {
+      "id": "TT_017",
+      "day": "Monday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-C",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 3"
+    },
+    {
+      "id": "TT_018",
+      "day": "Wednesday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-C",
+      "facultyId": "FAC04",
+      "facultyName": "Dr. Sunita Deshmukh",
+      "room": "Lab 3"
+    },
+    {
+      "id": "TT_019",
+      "day": "Friday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-A",
+      "facultyId": "FAC05",
+      "facultyName": "Prof. Vikram Roy",
+      "room": "Lab 2"
+    },
+    {
+      "id": "TT_020",
+      "day": "Tuesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-A",
+      "facultyId": "FAC05",
+      "facultyName": "Prof. Vikram Roy",
+      "room": "Lab 2"
+    },
+    {
+      "id": "TT_021",
+      "day": "Monday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-C",
+      "facultyId": "FAC06",
+      "facultyName": "Dr. Ananya Sen",
+      "room": "Lab 3"
+    },
+    {
+      "id": "TT_022",
+      "day": "Wednesday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS401",
+      "subjectName": "Operating Systems",
+      "division": "TY-C",
+      "facultyId": "FAC06",
+      "facultyName": "Dr. Ananya Sen",
+      "room": "Lab 3"
+    },
+    {
+      "id": "TT_023",
+      "day": "Tuesday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-A",
+      "facultyId": "FAC07",
+      "facultyName": "Prof. Suresh Nair",
+      "room": "Hall 201"
+    },
+    {
+      "id": "TT_024",
+      "day": "Thursday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS402",
+      "subjectName": "Database Management Systems",
+      "division": "TY-A",
+      "facultyId": "FAC07",
+      "facultyName": "Prof. Suresh Nair",
+      "room": "Hall 201"
+    },
+    {
+      "id": "TT_025",
+      "day": "Wednesday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-B",
+      "facultyId": "FAC08",
+      "facultyName": "Dr. Neha Kapoor",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_026",
+      "day": "Friday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS403",
+      "subjectName": "Data Structures & Algorithms",
+      "division": "TY-B",
+      "facultyId": "FAC08",
+      "facultyName": "Dr. Neha Kapoor",
+      "room": "Hall 202"
+    },
+    {
+      "id": "TT_027",
+      "day": "Thursday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-B",
+      "facultyId": "FAC09",
+      "facultyName": "Prof. Tanmay Bhat",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_028",
+      "day": "Monday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-B",
+      "facultyId": "FAC09",
+      "facultyName": "Prof. Tanmay Bhat",
+      "room": "Hall 203"
+    },
+    {
+      "id": "TT_029",
+      "day": "Friday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-C",
+      "facultyId": "FAC09",
+      "facultyName": "Prof. Tanmay Bhat",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_030",
+      "day": "Tuesday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS404",
+      "subjectName": "Computer Networks",
+      "division": "TY-C",
+      "facultyId": "FAC09",
+      "facultyName": "Prof. Tanmay Bhat",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_031",
+      "day": "Friday",
+      "time": "11:00 AM - 12:00 PM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-B",
+      "facultyId": "FAC10",
+      "facultyName": "Dr. Rohit Joshi",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_032",
+      "day": "Tuesday",
+      "time": "03:00 PM - 04:00 PM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-B",
+      "facultyId": "FAC10",
+      "facultyName": "Dr. Rohit Joshi",
+      "room": "Lab 1"
+    },
+    {
+      "id": "TT_033",
+      "day": "Monday",
+      "time": "01:30 PM - 02:30 PM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-C",
+      "facultyId": "FAC10",
+      "facultyName": "Dr. Rohit Joshi",
+      "room": "Lab 2"
+    },
+    {
+      "id": "TT_034",
+      "day": "Wednesday",
+      "time": "09:30 AM - 10:30 AM",
+      "subject": "CS405",
+      "subjectName": "Artificial Intelligence & ML",
+      "division": "TY-C",
+      "facultyId": "FAC10",
+      "facultyName": "Dr. Rohit Joshi",
+      "room": "Lab 2"
+    }
+  ],
+  "timetableInfo": {
+    "fileName": "Semester_VI_Official_Academic_Timetable.pdf",
+    "fileSize": "320 KB",
+    "uploadedAt": "2026-10-12T08:46:13.300Z",
+    "uploadedBy": "College Administration",
+    "status": "Active & Allotted to Faculties"
+  }
+}
